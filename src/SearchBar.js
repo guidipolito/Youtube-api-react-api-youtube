@@ -18,7 +18,7 @@ function SearchBar(props){
       <SearchInput value={search} onChange={onChangeHandler} onKeyUp={onKeyUpHandler}/>
       <SearchButton onClick={()=>props.pesquisar(search)}>🔎</SearchButton>
       </span>
-  </SearchContainer>
+    </SearchContainer>
   );
 
 }
